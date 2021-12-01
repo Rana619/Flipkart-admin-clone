@@ -1,0 +1,36 @@
+.mainPageCont{
+    background-color: rgb(235, 232, 232);
+    min-height: 100vh;
+}
+.pageCont{
+    margin: 15px;
+    background-color: white;
+    padding: 20px;
+}
+.bannersCont{
+    width: 100%;
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+}
+.bannerCont{
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.bannerCont img {
+    height: 145px;
+    width: auto;
+}
+.links{
+    text-decoration: none;
+    padding: 3px 20px;
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    border-radius: 3px;
+}

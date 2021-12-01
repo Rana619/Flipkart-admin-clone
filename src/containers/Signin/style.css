@@ -1,0 +1,21 @@
+.signinCont{
+    padding-top: 70px;
+}
+.logoCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logoCont img {
+    width: 150px;
+}
+.logoCont div{
+    font-size: 25px;
+    font-weight: 500;
+}
+.btnCont{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

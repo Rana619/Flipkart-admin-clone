@@ -1,0 +1,35 @@
+.categoryCont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+    background-color: #0000FF;
+    color: white;
+    padding: 5px 15px;
+}
+.labelHeader{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.modal-header{
+    padding: 5px 15px;
+    background-color: gray;
+}
+.modal-title{
+     font-size: 18px;
+     color: #fff;
+}
+.actionBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actionBtn > button{
+    margin: 0 5px;
+    border: 0;
+    font-size: 14px;
+    background-color: white;
+    padding: 3px 7px;
+}
+.modal-footer{
+    padding:  5px 15px;
+}
