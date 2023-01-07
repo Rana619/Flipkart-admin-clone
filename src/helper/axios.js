@@ -23,7 +23,7 @@ axiosIntance.interceptors.request.use((req) =>{
 axiosIntance.interceptors.response.use((res)=>{
     return res;
 }, (error) =>{
-    const { status } = error.response;
+    const status  = error?.response?.status || null;
     if(status === 500){
         localStorage.clear();
         store.dispatch({ type : authConstants.LOGOUT_SUCCESS })
